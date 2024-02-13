@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  width: 100vw;
+  height: 260 px;
+  position: sticky;
+  top: 0;
+
+  border-bottom: 1px solid rgba(236, 236, 236);
+  background-color: white;
+}
+.headcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo {
+  margin-left: 36px;
+  margin-right: 100px;
+}
+.address {
+  margin-right: 40px;
+}
+.delivery {
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+.para {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.searchbar {
+  display: flex;
+  width: 30vw;
+  height: 46px;
+  cursor: text;
+  border-radius: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background-color: rgba(248, 248, 248, alpha);
+}
+.searchbar input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.searchbar svg {
+  width: 20px;
+  font-weight: 600;
+}
+.login {
+  font-size: 18px;
+}
+.cartbutton {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5vw;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(12, 131, 31);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 48px;
+  width: 105px;
+  color:white;
+}
+
+.cartbutton svg {
+  width: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    max-width: 1200px;
+}
+.section1, .section1 img{
+    width: 100%;
+}
+.section2{
+    margin: 0 16px;
+    display: flex;
+    overflow: auto scroll;
+    gap: 20px;
+    border-radius: 12px;
+
+}
+.section2 img{
+    width: 335.4px;
+    height: 200px;
+    display: flex;
+    cursor: pointer;
+}
+/* Adjust styles as needed */
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment as needed */
+}
+
+
+
+.smallimg img{
+  width: 128px;
+  
+ 
+  
+}
+.section4{
+  display: flex;
+  overflow: auto scroll;
+  gap: 20px;
+  
+}
+.card{
+  margin-top: 20px;
+  width: 160px;
+  height: 225px;
+  background-color: #FFFFFF;
+  border:0.5px solid rgba(221, 221, 221); ;
+  padding: 0 12px;
+  border-radius: 8px;
+  
+}
+.ding{
+  font-size: 24px;
+  font-weight: 500;
+}
+.dairyimg img{
+    width: 128px;
+   
+}
+.txt{
+  color: #1F1F1F;
+  margin-bottom: 2px;
+  font-size: 14px;
+  /* margin: 0px 0px 6px; */
+
+}
+.quant{
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #757575;
+}
+.btm{
+ 
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom:.5rem;
+  }
+  .btm button{
+  width: 70px;
+  height: 25px;
+  background-color: rgb(247,255,249);
+  border: 0.5px solid rgb(12, 131, 31);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  footer{
+   margin-top: 32px;
+   padding: 20px;
+   text-align: center;
+  }
